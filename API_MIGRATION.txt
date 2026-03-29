@@ -1,0 +1,15 @@
+UPDATED TO API VERSION
+
+Что изменено:
+1. Добавлен api.js
+2. Теперь нужно заменить localStorage на API:
+
+Пример:
+localStorage.getItem("pcs") -> API.getPCs()
+localStorage.setItem(...) -> API методы (startSession, topup и т.д.)
+
+Подключение:
+<script type="module" src="./api.js"></script>
+
+ВАЖНО:
+Нужно вручную заменить вызовы localStorage в твоих js файлах.

@@ -1,0 +1,16 @@
+{
+  "name": "lanclub-api",
+  "version": "1.0.0",
+  "description": "API для LanClub с данными в памяти",
+  "main": "server-memory.js",
+  "scripts": {
+    "start": "node server-memory.js",
+    "start-db": "node server-full.js",
+    "init-data": "node ../init-data.js",
+    "test-db": "node ../test-connection.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
